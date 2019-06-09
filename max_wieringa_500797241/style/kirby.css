@@ -1,0 +1,92 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #63B0CE;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  text-decoration: none;
+  color: black;
+  float: left;
+  padding: 10px;
+  margin-left: 5%;
+  font-size: 1.5em;
+  background-color: rgba(0, 125, 255, 1);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  float: right;
+  padding: 10px;
+  margin-right: 10%;
+  font-size: 1.5em;
+  background-color: rgba(0, 125, 255, 1);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+#cursed {
+  height: 100px;
+  width: 100px;
+  visibility: collapse;
+  margin: 0 auto;
+  padding-top: 0;
+}
+
+div.links {
+  float: left;
+}
+
+div.links img {
+  height: 20vh;
+  width: 85%;
+  padding-left: 10px;
+}
+
+div.rechts {
+  float: right;
+}
+
+div.rechts img {
+  height: 20vh;
+  width: 85%;
+  padding-right: 10px;
+}
+
+#kirby {
+  padding-top: 50px;
+  padding-bottom: 0;
+  height: 30vh;
+  width: 16%;
+}
+
+img.item {
+  float: left;
+  margin: 0 auto;
+  padding-top: 0;
+  padding-left: 13%;
+  height: 20vh;
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
